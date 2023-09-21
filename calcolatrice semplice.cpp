@@ -8,51 +8,51 @@ int main() {
     float x2;
     float risultato;
 
-    // Selezione della modalit‡
+    // Selezione della modalit√†
 
     cout << "Seleziona un'opzione:\n";
-    cout << "[1] Addizione\n";
-    cout << "[2] Sottrazione\n";
-    cout << "[3] Moltiplicazione\n";
-    cout << "[4] Divisione\n";
-    cout << "Inserisci numero: ";
-    cin >> scelta;
+        cout << "[1] Addizione\n";
+        cout << "[2] Sottrazione\n";
+        cout << "[3] Moltiplicazione\n";
+        cout << "[4] Divisione\n";
+        cout << "Inserisci numero: ";
+            cin >> scelta;
 
     switch (scelta) {
     case 1:
         cout << "Inserisci il primo numero: \n";
-        cin >> x1;
+            cin >> x1;
         cout << "Inserisci il secondo numero: \n";
-        cin >> x2;
+            cin >> x2;
         risultato = x1 + x2;
-        cout << "Il risultato Ë: " << risultato;
+            cout << "Il risultato √®: " << risultato;
         break;
 
     case 2:
         cout << "Inserisci il primo numero: \n";
-        cin >> x1;
+            cin >> x1;
         cout << "Inserisci il secondo numero: \n";
-        cin >> x2;
+            cin >> x2;
         risultato = x1 - x2;
-        cout << "Il risultato Ë: " << risultato;
+            cout << "Il risultato √®: " << risultato;
         break;
 
     case 3:
         cout << "Inserisci il primo numero: \n";
-        cin >> x1;
+            cin >> x1;
         cout << "Inserisci il secondo numero: \n";
-        cin >> x2;
+            cin >> x2;
         risultato = x1 * x2;
-        cout << "Il risultato Ë: " << risultato;
+            cout << "Il risultato √®: " << risultato;
         break;
 
     case 4:
         cout << "Inserisci il primo numero: \n";
-        cin >> x1;
+            cin >> x1;
         cout << "Inserisci il secondo numero: \n";
-        cin >> x2;
+            cin >> x2;
         risultato = x1 / x2;
-        cout << "Il risultato Ë: " << risultato;
+            cout << "Il risultato √®: " << risultato;
         break;
 
     default:
