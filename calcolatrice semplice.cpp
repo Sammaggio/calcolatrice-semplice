@@ -1,4 +1,4 @@
-/*BENVENUTO NEL PROGRAMMA PROF!*/
+/*BENVENUTO NEL PROGRAMMA!*/
 #include <iostream>
 
 using namespace std;
